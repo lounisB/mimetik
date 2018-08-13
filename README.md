@@ -34,7 +34,6 @@ Or a c++ library (multilayerPerceptron.h):
     network.computeFile("./xor.txt");
 	
 ## Installation
-    cd mimetik
     make 
     make install
 ## Execution

@@ -79,7 +79,7 @@ Run a mimetik script:
 
 ## Files
 ### Training set (loadTrainingSet)
-Training set files  contain inputs and outputs to allow the neural network to learn by example
+Training set files  contain inputs and outputs to allow the neural network to learn by example  
 xor: 
 
     [mlp]

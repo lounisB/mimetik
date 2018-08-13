@@ -57,9 +57,9 @@ public:
     multilayerPerceptron(const vector<int> tabNbNeurons, const double eta = 0.5, const double alpha = 0.9);
     ~multilayerPerceptron();
     bool loadTrainingSetFile(const string fileUrl);
+    bool loadTrainingSet(const vector< vector<double> > &tabInputs, const vector< vector<double> > &tabOutputTargets, const bool verbose = false);
     void setEta(const double eta);
     void setAlpha(const double alpha);
-    bool loadTrainingSet(const vector< vector<double> > &tabInputs, const vector< vector<double> > &tabOutputTargets, const bool verbose = false);
     bool computeOutput(const vector<double> &tabInput, vector<double> &tabOutput);
     bool computeFile(const string fileInUrl, string fileOutUrl = "");
     bool learning(const int limit, const bool verbose = false, const bool randomShuffleTrainingSet = false);

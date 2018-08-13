@@ -1,0 +1,6 @@
+network 49 100 100 2
+loadTrainingSet cross_circle.txt
+learning 500 true
+saveState cross_circle
+computeFile cross_circle_test.txt
+

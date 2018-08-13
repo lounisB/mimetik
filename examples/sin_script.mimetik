@@ -1,0 +1,9 @@
+network 1 100 100 1
+setAlpha 0.9
+setEta 0.5
+loadTrainingSet sin.txt
+learning 5000 true
+saveState save_sin
+compute 0.565
+
+

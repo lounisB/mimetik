@@ -1,0 +1,10 @@
+network 2 5 1
+loadTrainingSet xor.txt
+learning 5000
+saveStateText save_xor.txt
+compute 0 0
+compute 0 1
+compute 1 0
+compute 1 1
+
+

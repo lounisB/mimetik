@@ -1,0 +1,12 @@
+network 4 100 100 4
+loadTrainingSet vehicle.txt
+learning 5000 true
+saveState save_vehicle
+compute 0.20 0.01 1 2
+compute 0.06 0.01 1 0
+compute 0.26 0.15 0 0
+compute 0.25 0.10 1 1
+compute 0.26 0.03 0 0.1
+compute 0.31 0.03 0 0.1
+
+

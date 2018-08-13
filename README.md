@@ -31,10 +31,10 @@ Or a c++ library (multilayerPerceptron.h):
     multilayerPerceptron network(layers);
     network.learning("./xor.txt", 5000);
     network.saveState("save_xor");
-	network.computeFile("./xor.txt");
+    network.computeFile("./xor.txt");
 	
 ## Installation
-	cd mimetik
+    cd mimetik
     make 
     make install
 ## Execution
@@ -119,7 +119,7 @@ The number of inputs, the number of outputs, the number of examples
    
 
 The header [mlp_layers] defines:
-The number of layers, the number neurons of layer1, the number neurons of layer2 ...
+The number of layers, the number neurons of layer1, the number neurons of layer2 ...  
 [mlp_weights] defines weights of the neural network layer by layer
 
 ### SaveState Files

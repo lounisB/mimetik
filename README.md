@@ -135,7 +135,7 @@ The folder "examples" contains some use cases.
 
     cd examples
     mimetik xor_script.mimetik
-
+    
 ### Simple perceptron
 In addition, mimetik provides a simple implementation of a perceptron: perceptron.h  
 See the perceptron folder

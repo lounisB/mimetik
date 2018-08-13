@@ -1,6 +1,6 @@
 # Mimetik
 
-Mimetik is a machine learning software.
+Mimetik is a machine learning software.  
 Main features:
 - Creation of a neural network (multiLayer perceptron) 
 - Load Training data set from a file

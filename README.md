@@ -133,6 +133,9 @@ The folder "examples" contains some use cases.
 - cross_circle: Image recognition (cross or circle)
 - vehicle: Prediction of a transport means (see vehicle_readme.txt)
 
+    cd examples
+    mimetik xor_script.mimetik
+
 ### Simple perceptron
 In addition, mimetik provides a simple implementation of a perceptron: perceptron.h  
 See the perceptron folder

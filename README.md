@@ -119,7 +119,7 @@ The number of inputs, the number of outputs, the number of examples
    
 
 The header [mlp_layers] defines:
-The number of layers, the number neurons of layer1, he number neurons of layer2 ...
+The number of layers, the number neurons of layer1, the number neurons of layer2 ...
 [mlp_weights] defines weights of the neural network layer by layer
 
 ### SaveState Files

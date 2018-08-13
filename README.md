@@ -99,8 +99,8 @@ xor:
  
   
 The header [mlp] defines:
-The number of inputs, the number of outputs, the number of examples
-[inputs] are Float values (scaled in [0;1] for better results)
+The number of inputs, the number of outputs, the number of examples  
+[inputs] are Float values (scaled in [0;1] for better results)  
 [outputs] are Float values
 
 ### SaveStateText Files
@@ -118,7 +118,7 @@ The number of inputs, the number of outputs, the number of examples
     -2.49848 -14.4462 -4.83591 7.35598 7.31272 
    
 
-The header [mlp_layers] defines:
+The header [mlp_layers] defines:  
 The number of layers, the number neurons of layer1, the number neurons of layer2 ...  
 [mlp_weights] defines weights of the neural network layer by layer
 
@@ -135,5 +135,5 @@ The folder "examples" contains some use cases.
 - vehicle: Prediction of a transport means (see vehicle_readme.txt)
 
 ### Simple perceptron
-In addition, mimetik provides a simple implementation of a perceptron: perceptron.h
+In addition, mimetik provides a simple implementation of a perceptron: perceptron.h  
 See the perceptron folder

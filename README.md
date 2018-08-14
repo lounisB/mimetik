@@ -50,11 +50,11 @@ Run a mimetik script:
     usage:
     	network nbLayer1 nbLayer2 ... - Create neural network layers
     	loadTrainingSet trainingset.txt - Load training set from file
-    	setEta eta - set learning rate factor [0,1] (default = 0.5)
-    	setAlpha alpha - set momentum factor [0,1] (default = 0.9)
+    	setEta eta - Set learning rate factor [0,1] (default = 0.5)
+    	setAlpha alpha - Set momentum factor [0,1] (default = 0.9)
     	learning limit verbose(booleen) randomOrder(booleen) - Start learning
-    	compute input1 input2 ... - compute outputs
-    	computeFile fileIn fileOut - compute a file
+    	compute input1 input2 ... - Compute outputs
+    	computeFile fileIn fileOut - Compute a file
     	saveState filename - Save neural network state in binary file
     	saveStateText filename.txt - Load neural network state in text file
     	loadState filename - Load neural network state from binary file

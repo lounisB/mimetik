@@ -394,11 +394,11 @@ bool mimetik::doHelp()
     cout << "usage:" << endl;
     cout << "\t" << "network nbLayer1 nbLayer2 ... - Create neural network layers" << endl;
     cout << "\t" << "loadTrainingSet trainingset.txt - Load training set from file" << endl;
-    cout << "\t" << "setEta eta - set learning rate factor [0,1] (default = 0.5)" << endl;
-    cout << "\t" << "setAlpha alpha - set momentum factor [0,1] (default = 0.9)" << endl;
+    cout << "\t" << "setEta eta - Set learning rate factor [0,1] (default = 0.5)" << endl;
+    cout << "\t" << "setAlpha alpha - Set momentum factor [0,1] (default = 0.9)" << endl;
     cout << "\t" << "learning limit verbose(booleen) randomOrder(booleen) - Start learning" << endl;
-    cout << "\t" << "compute input1 input2 ... - compute outputs" << endl;
-    cout << "\t" << "computeFile fileIn fileOut - compute a file" << endl;
+    cout << "\t" << "compute input1 input2 ... - Compute outputs" << endl;
+    cout << "\t" << "computeFile fileIn fileOut - Compute a file" << endl;
     cout << "\t" << "saveState filename - Save neural network state in binary file" << endl;
     cout << "\t" << "saveStateText filename.txt - Load neural network state in text file" << endl;
     cout << "\t" << "loadState filename - Load neural network state from binary file" << endl;

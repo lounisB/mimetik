@@ -48,14 +48,6 @@ int main(int argc, char *argv[])
     if (argc > 1)
     {
         string filename = argv[1];
-        ifstream file;
-        file.open(filename.c_str());
-        if (!file.is_open())
-        {
-            cout <<  "error: can't open file " << filename << endl;
-            return false;
-        }
-
         mk.executeScript(filename);
         return 0;
     }

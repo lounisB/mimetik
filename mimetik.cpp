@@ -120,6 +120,7 @@ bool mimetik::doNetwork()
        tabNbLayers.push_back(nblayer);
     }
 
+    delete m_mlp;
     m_mlp = new multilayerPerceptron(tabNbLayers);
     cout << "new multilayer perceptron: ";
     for (int i = 0; i < tabNbLayers.size(); i++)

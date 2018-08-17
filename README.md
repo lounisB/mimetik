@@ -22,6 +22,7 @@ You can use it as a command line program:
     
 Or a c++ library (multilayerPerceptron.h):
 
+```c++
     vector<int> layers;
     layers.resize(3);
     layers[0] = 2;
@@ -32,6 +33,7 @@ Or a c++ library (multilayerPerceptron.h):
     network.learning("./xor.txt", 5000);
     network.saveState("save_xor");
     network.computeFile("./xor.txt");
+```
 	
 ## Installation
     make 

@@ -1,5 +1,5 @@
 [perceptron]
-3 10
+3 4
 
 [inputs]
 1 0 0
